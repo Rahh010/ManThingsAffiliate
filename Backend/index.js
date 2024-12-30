@@ -11,7 +11,7 @@ console.log(process.env.FRONTEND_URL)
 
 // Middleware
 app.use(cors({
-  origin: '*', // Frontend URL
+  origin: "https://manthings.vercel.app/", // Frontend URL
   credentials: true, // Allow credentials (cookies, authorization headers)
 }));
 // Increase payload size limit
