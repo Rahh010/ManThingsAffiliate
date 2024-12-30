@@ -69,7 +69,7 @@ const Dashboard = () => {
 
     try {
       const res = await axios.post(
-        `${import.meta.env.VITE_BACKEND_URL}/api/products/upload`,
+        `${import.meta.env.VITE_BACKEND_URL}api/products/upload`,
         {
           name: formData.productName,
           affiliateLink: formData.affiliateLink,

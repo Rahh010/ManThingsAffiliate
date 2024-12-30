@@ -3,7 +3,7 @@ import axios, { all } from 'axios';
 const FetchAndFilterProduct = async (userCategory) => {
   try {
     // Fetch all products from the backend
-    const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/products/`);
+    const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}api/products/`);
     const allProducts = response.data.products;
     console.log(allProducts)
 

@@ -9,7 +9,7 @@ const Listingproduct = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/products`);
+        const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}api/products`);
         setProducts(res.data.products || []); // Ensure products is always an array
         setLoading(false);
       } catch (err) {
@@ -24,7 +24,7 @@ const Listingproduct = () => {
 
   const deleteProduct = async (productId) => {
     try {
-      await axios.delete(`${import.meta.env.VITE_BACKEND_URL}/api/products/delete/${productId}`, { withCredentials: true });
+      await axios.delete(`${import.meta.env.VITE_BACKEND_URL}api/products/delete/${productId}`, { withCredentials: true });
       setProducts((prevProducts) =>
         prevProducts.filter((product) => product._id !== productId)
       ); // Update state after deletion

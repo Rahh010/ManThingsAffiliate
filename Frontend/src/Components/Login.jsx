@@ -16,7 +16,7 @@ const Login = () => {
     e.preventDefault();
     try {
       console.log("Sending request...");
-      const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/login`, formData, {
+      const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}api/auth/login`, formData, {
         withCredentials: true,
       });
       console.log("logged In");
