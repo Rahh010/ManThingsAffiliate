@@ -18,7 +18,10 @@ app.use(cors({
 app.use(bodyParser.json({ limit: "10mb" })); // Adjust the limit as needed
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 app.use(cookieParser());
-
+app.use((req, res, next) => {
+  res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade'); // or another policy
+  next();
+});
 
 // Connect to MongoDB
 connectDB();
