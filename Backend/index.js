@@ -7,8 +7,10 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 
+console.log(process.env.FRONTEND_URL)
+
 // Middleware
-app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
+app.use(cors({ origin: "*", credentials: true }));
 // Increase payload size limit
 app.use(bodyParser.json({ limit: "10mb" })); // Adjust the limit as needed
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
