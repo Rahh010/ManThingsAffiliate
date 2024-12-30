@@ -23,6 +23,8 @@ exports.login = async (req, res) => {
       .cookie("authToken", token, {
         httpOnly: true, // Prevent access via JavaScript
         maxAge: 60 * 60 * 1000, // 1 hour in milliseconds
+        sameSite: 'None',
+        domain: '.vercel.app',  // Ensures the cookie is accessible across subdomains (like `manthings.vercel.app` and `manthingsserver.vercel.app`)      
       })
       .status(200)
       .json({ message: "Login successful" });
