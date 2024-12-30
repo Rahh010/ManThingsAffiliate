@@ -1,0 +1,44 @@
+# Node modules
+/node_modules
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependency directory for serverless
+/.serverless
+
+# npm package-lock file for avoiding conflicts
+package-lock.json
+
+# Yarn lock file for Yarn users
+yarn.lock
+
+# IDE files
+/.idea
+/.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories (if any)
+dist
+build
+
+# Coverage directory for code coverage tools
+/coverage
+
+# Files related to deployment environments (e.g., Docker, AWS, etc.)
+*.tgz
+*.zip

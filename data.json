@@ -1,0 +1,318 @@
+[
+  {
+    "name": "Stylish Sunglasses",
+    "images": [
+      "https://via.placeholder.com/150?text=Accessory+Image+1",
+      "https://via.placeholder.com/150?text=Accessory+Image+2"
+    ],
+    "affiliateLink": "https://example.com/sunglasses",
+    "category": "accessories"
+  },
+  {
+    "name": "Leather Wallet",
+    "images": [
+      "https://via.placeholder.com/150?text=Accessory+Image+3",
+      "https://via.placeholder.com/150?text=Accessory+Image+4"
+    ],
+    "affiliateLink": "https://example.com/wallet",
+    "category": "accessories"
+  },
+  {
+    "name": "Wrist Watch",
+    "images": [
+      "https://via.placeholder.com/150?text=Accessory+Image+5",
+      "https://via.placeholder.com/150?text=Accessory+Image+6"
+    ],
+    "affiliateLink": "https://example.com/watch",
+    "category": "accessories"
+  },
+  {
+    "name": "Elegant Scarf",
+    "images": [
+      "https://via.placeholder.com/150?text=Accessory+Image+7",
+      "https://via.placeholder.com/150?text=Accessory+Image+8"
+    ],
+    "affiliateLink": "https://example.com/scarf",
+    "category": "accessories"
+  },
+  {
+    "name": "Canvas Tote Bag",
+    "images": [
+      "https://via.placeholder.com/150?text=Accessory+Image+9",
+      "https://via.placeholder.com/150?text=Accessory+Image+10"
+    ],
+    "affiliateLink": "https://example.com/tote-bag",
+    "category": "accessories"
+  },
+    {
+      "name": "Wireless Earbuds",
+      "images": [
+        "https://via.placeholder.com/150?text=Gadget+Image+1",
+        "https://via.placeholder.com/150?text=Gadget+Image+2"
+      ],
+      "affiliateLink": "https://example.com/wireless-earbuds",
+      "category": "gadgets"
+    },
+    {
+      "name": "Smartwatch",
+      "images": [
+        "https://via.placeholder.com/150?text=Gadget+Image+3",
+        "https://via.placeholder.com/150?text=Gadget+Image+4"
+      ],
+      "affiliateLink": "https://example.com/smartwatch",
+      "category": "gadgets"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "images": [
+        "https://via.placeholder.com/150?text=Gadget+Image+5",
+        "https://via.placeholder.com/150?text=Gadget+Image+6"
+      ],
+      "affiliateLink": "https://example.com/bluetooth-speaker",
+      "category": "gadgets"
+    },
+    {
+      "name": "Portable Charger",
+      "images": [
+        "https://via.placeholder.com/150?text=Gadget+Image+7",
+        "https://via.placeholder.com/150?text=Gadget+Image+8"
+      ],
+      "affiliateLink": "https://example.com/portable-charger",
+      "category": "gadgets"
+    },
+    {
+      "name": "VR Headset",
+      "images": [
+        "https://via.placeholder.com/150?text=Gadget+Image+9",
+        "https://via.placeholder.com/150?text=Gadget+Image+10"
+      ],
+      "affiliateLink": "https://example.com/vr-headset",
+      "category": "gadgets"
+    },
+    {
+      "name": "Cotton T-Shirt",
+      "images": [
+        "https://via.placeholder.com/150?text=Topwear+Image+1",
+        "https://via.placeholder.com/150?text=Topwear+Image+2"
+      ],
+      "affiliateLink": "https://example.com/cotton-tshirt",
+      "category": "topwear"
+    },
+    {
+      "name": "Denim Jacket",
+      "images": [
+        "https://via.placeholder.com/150?text=Topwear+Image+3",
+        "https://via.placeholder.com/150?text=Topwear+Image+4"
+      ],
+      "affiliateLink": "https://example.com/denim-jacket",
+      "category": "topwear"
+    },
+    {
+      "name": "Formal Shirt",
+      "images": [
+        "https://via.placeholder.com/150?text=Topwear+Image+5",
+        "https://via.placeholder.com/150?text=Topwear+Image+6"
+      ],
+      "affiliateLink": "https://example.com/formal-shirt",
+      "category": "topwear"
+    },
+    {
+      "name": "Hooded Sweatshirt",
+      "images": [
+        "https://via.placeholder.com/150?text=Topwear+Image+7",
+        "https://via.placeholder.com/150?text=Topwear+Image+8"
+      ],
+      "affiliateLink": "https://example.com/hooded-sweatshirt",
+      "category": "topwear"
+    },
+    {
+      "name": "Polo T-Shirt",
+      "images": [
+        "https://via.placeholder.com/150?text=Topwear+Image+9",
+        "https://via.placeholder.com/150?text=Topwear+Image+10"
+      ],
+      "affiliateLink": "https://example.com/polo-tshirt",
+      "category": "topwear"
+    },  {
+      "name": "Slim Fit Jeans",
+      "images": [
+        "https://via.placeholder.com/150?text=Bottomwear+Image+1",
+        "https://via.placeholder.com/150?text=Bottomwear+Image+2"
+      ],
+      "affiliateLink": "https://example.com/slim-fit-jeans",
+      "category": "bottomwear"
+    },
+    {
+      "name": "Cotton Chinos",
+      "images": [
+        "https://via.placeholder.com/150?text=Bottomwear+Image+3",
+        "https://via.placeholder.com/150?text=Bottomwear+Image+4"
+      ],
+      "affiliateLink": "https://example.com/cotton-chinos",
+      "category": "bottomwear"
+    },
+    {
+      "name": "Casual Shorts",
+      "images": [
+        "https://via.placeholder.com/150?text=Bottomwear+Image+5",
+        "https://via.placeholder.com/150?text=Bottomwear+Image+6"
+      ],
+      "affiliateLink": "https://example.com/casual-shorts",
+      "category": "bottomwear"
+    },
+    {
+      "name": "Formal Trousers",
+      "images": [
+        "https://via.placeholder.com/150?text=Bottomwear+Image+7",
+        "https://via.placeholder.com/150?text=Bottomwear+Image+8"
+      ],
+      "affiliateLink": "https://example.com/formal-trousers",
+      "category": "bottomwear"
+    },
+    {
+      "name": "Jogger Pants",
+      "images": [
+        "https://via.placeholder.com/150?text=Bottomwear+Image+9",
+        "https://via.placeholder.com/150?text=Bottomwear+Image+10"
+      ],
+      "affiliateLink": "https://example.com/jogger-pants",
+      "category": "bottomwear"
+    },
+    {
+      "name": "Running Shoes",
+      "images": [
+        "https://via.placeholder.com/150?text=Footwear+Image+1",
+        "https://via.placeholder.com/150?text=Footwear+Image+2"
+      ],
+      "affiliateLink": "https://example.com/running-shoes",
+      "category": "footwear"
+    },
+    {
+      "name": "Leather Boots",
+      "images": [
+        "https://via.placeholder.com/150?text=Footwear+Image+3",
+        "https://via.placeholder.com/150?text=Footwear+Image+4"
+      ],
+      "affiliateLink": "https://example.com/leather-boots",
+      "category": "footwear"
+    },
+    {
+      "name": "Casual Sneakers",
+      "images": [
+        "https://via.placeholder.com/150?text=Footwear+Image+5",
+        "https://via.placeholder.com/150?text=Footwear+Image+6"
+      ],
+      "affiliateLink": "https://example.com/casual-sneakers",
+      "category": "footwear"
+    },
+    {
+      "name": "Formal Shoes",
+      "images": [
+        "https://via.placeholder.com/150?text=Footwear+Image+7",
+        "https://via.placeholder.com/150?text=Footwear+Image+8"
+      ],
+      "affiliateLink": "https://example.com/formal-shoes",
+      "category": "footwear"
+    },
+    {
+      "name": "Flip Flops",
+      "images": [
+        "https://via.placeholder.com/150?text=Footwear+Image+9",
+        "https://via.placeholder.com/150?text=Footwear+Image+10"
+      ],
+      "affiliateLink": "https://example.com/flip-flops",
+      "category": "footwear"
+    },  {
+      "name": "Yoga Mat",
+      "images": [
+        "https://via.placeholder.com/150?text=Fitness+Image+1",
+        "https://via.placeholder.com/150?text=Fitness+Image+2"
+      ],
+      "affiliateLink": "https://example.com/yoga-mat",
+      "category": "fitness"
+    },
+    {
+      "name": "Dumbbell Set",
+      "images": [
+        "https://via.placeholder.com/150?text=Fitness+Image+3",
+        "https://via.placeholder.com/150?text=Fitness+Image+4"
+      ],
+      "affiliateLink": "https://example.com/dumbbell-set",
+      "category": "fitness"
+    },
+    {
+      "name": "Resistance Bands",
+      "images": [
+        "https://via.placeholder.com/150?text=Fitness+Image+5",
+        "https://via.placeholder.com/150?text=Fitness+Image+6"
+      ],
+      "affiliateLink": "https://example.com/resistance-bands",
+      "category": "fitness"
+    },
+    {
+      "name": "Treadmill",
+      "images": [
+        "https://via.placeholder.com/150?text=Fitness+Image+7",
+        "https://via.placeholder.com/150?text=Fitness+Image+8"
+      ],
+      "affiliateLink": "https://example.com/treadmill",
+      "category": "fitness"
+    },
+    {
+      "name": "Kettlebell",
+      "images": [
+        "https://via.placeholder.com/150?text=Fitness+Image+9",
+        "https://via.placeholder.com/150?text=Fitness+Image+10"
+      ],
+      "affiliateLink": "https://example.com/kettlebell",
+      "category": "fitness"
+    },  {
+      "name": "Shaving Kit",
+      "images": [
+        "https://via.placeholder.com/150?text=Grooming+Image+1",
+        "https://via.placeholder.com/150?text=Grooming+Image+2"
+      ],
+      "affiliateLink": "https://example.com/shaving-kit",
+      "category": "grooming"
+    },
+    {
+      "name": "Beard Trimmer",
+      "images": [
+        "https://via.placeholder.com/150?text=Grooming+Image+3",
+        "https://via.placeholder.com/150?text=Grooming+Image+4"
+      ],
+      "affiliateLink": "https://example.com/beard-trimmer",
+      "category": "grooming"
+    },
+    {
+      "name": "Hair Growth Serum",
+      "images": [
+        "https://via.placeholder.com/150?text=Grooming+Image+5",
+        "https://via.placeholder.com/150?text=Grooming+Image+6"
+      ],
+      "affiliateLink": "https://example.com/hair-growth-serum",
+      "category": "grooming"
+    },
+    {
+      "name": "Facial Cleansing Brush",
+      "images": [
+        "https://via.placeholder.com/150?text=Grooming+Image+7",
+        "https://via.placeholder.com/150?text=Grooming+Image+8"
+      ],
+      "affiliateLink": "https://example.com/facial-cleansing-brush",
+      "category": "grooming"
+    },
+    {
+      "name": "Nail Clippers Set",
+      "images": [
+        "https://via.placeholder.com/150?text=Grooming+Image+9",
+        "https://via.placeholder.com/150?text=Grooming+Image+10"
+      ],
+      "affiliateLink": "https://example.com/nail-clippers-set",
+      "category": "grooming"
+    }
+  ]
+  
+  
+  
+  

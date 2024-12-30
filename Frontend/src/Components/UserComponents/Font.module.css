@@ -1,0 +1,36 @@
+.poppinsR {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppinsLi {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppinsMi {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppinsBi {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .tenorSr {
+    font-family: "Tenor Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }

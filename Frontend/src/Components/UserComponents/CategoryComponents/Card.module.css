@@ -1,0 +1,68 @@
+.card {
+    border: 1px solid #ccc;
+    height: 500px;
+    width: 300px;
+    border-radius: 8px;
+
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .imageContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .navButton:first-of-type {
+    left: 10px;
+  }
+  
+  .navButton:last-of-type {
+    right: 10px;
+  }
+  
+  .title {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .link{
+    height: 35px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 18px;
+  }
+
+  .link a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
