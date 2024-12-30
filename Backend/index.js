@@ -11,17 +11,13 @@ console.log(process.env.FRONTEND_URL)
 
 // Middleware
 app.use(cors({
-  origin: "https://manthings.vercel.app", // Frontend URL
-  credentials: true, // Allow credentials (cookies, authorization headers)
+  origin: 'https://manthings.vercel.app',  // Ensure this is set correctly
+  credentials: true, // Allow cookies to be sent with requests
 }));
 // Increase payload size limit
 app.use(bodyParser.json({ limit: "10mb" })); // Adjust the limit as needed
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 app.use(cookieParser());
-app.use((req, res, next) => {
-  res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade'); // or another policy
-  next();
-});
 
 // Connect to MongoDB
 connectDB();

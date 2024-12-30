@@ -15,16 +15,15 @@ exports.login = async (req, res) => {
       expiresIn: "1h",
     });
 
-    // Set the token as an HTTP-only cookie
-    res.cookie("authToken", token, {
-      httpOnly: true,
+    res.cookie('authToken', token, {
+      httpOnly: true,    // Prevent JavaScript from accessing the cookie
       maxAge: 60 * 60 * 1000,  // 1 hour
-      sameSite: 'None',
-      secure: true,  // Ensure it's only sent over HTTPS
-      domain: '.vercel.app',  // For subdomains
+      sameSite: 'None',  // Allows cross-origin cookies
+      secure: true,      // Only send cookie over HTTPS
     })
     .status(200)
     .json({ message: "Login successful" });
+    
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Server error" });

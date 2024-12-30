@@ -17,8 +17,9 @@ const Login = () => {
     try {
       console.log("Sending request...");
       const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}api/auth/login`, formData, {
-        withCredentials: true, // This ensures cookies are sent with the request
+        withCredentials: true, // Send cookies with the request
       });
+      
       console.log("Logged in successfully", res);
 
       // Token will be set in cookies (handled by the server)
