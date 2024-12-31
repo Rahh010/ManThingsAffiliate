@@ -1,6 +1,7 @@
 .card {
     border: 1px solid #ccc;
-    height: 500px;
+    min-height: 500px;
+    max-height: fit-content;
     width: 300px;
     border-radius: 8px;
 
