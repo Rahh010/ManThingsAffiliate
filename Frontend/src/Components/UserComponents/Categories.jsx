@@ -11,6 +11,7 @@ import Fitness from './images/gym.jpg';
 import Footwears from './images/shoe.jpg';
 import Topwears from './images/topwear.jpg';
 
+
 const Categories = () => {
 
   const categoryCardObject = [

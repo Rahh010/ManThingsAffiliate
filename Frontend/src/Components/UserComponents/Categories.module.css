@@ -5,3 +5,10 @@
     text-decoration: underline;
 }
   
+
+.p {
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+}
