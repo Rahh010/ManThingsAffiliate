@@ -7,14 +7,19 @@ import Font from '../Font.module.css';
 
 const Products = ({ category }) => {
   const [products, setProducts] = useState([]); // State to store products
-
-  console.log(category)
+  const [loading, setLoading] = useState(true); // State to track loading
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await FetchProduct(category); // Fetch products for the given category
-      setProducts(response); // Update the products state
-      console.log(response)
+      setLoading(true); // Start loading
+      try {
+        const response = await FetchProduct(category); // Fetch products for the given category
+        setProducts(response); // Update the products state
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      } finally {
+        setLoading(false); // End loading
+      }
     };
 
     fetchProducts();
@@ -24,7 +29,11 @@ const Products = ({ category }) => {
     <div className={styles.bg}>
       <Nav />
       <div className={styles.productGrid}>
-        {products.length > 0 ? (
+        {loading ? (
+          <div className={`${styles.loading} ${Font.poppinsLi}`}>
+            Products are loading...
+          </div>
+        ) : products.length > 0 ? (
           products.map((product) => <Card key={product._id} product={product} />)
         ) : (
           <div className={`${styles.noProduct} ${Font.poppinsLi}`}>
@@ -37,3 +46,4 @@ const Products = ({ category }) => {
 };
 
 export default Products;
+
