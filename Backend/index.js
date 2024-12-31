@@ -11,7 +11,7 @@ console.log(process.env.FRONTEND_URL)
 
 // Middleware
 app.use(cors({
-  origin: 'https://manthings.vercel.app',  // Ensure this is set correctly
+  origin: 'https://manthings.vercel.app' || '*',  // Ensure this is set correctly
   credentials: true, // Allow cookies to be sent with requests
 }));
 // Increase payload size limit

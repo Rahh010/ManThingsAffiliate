@@ -3,13 +3,13 @@ import { Route, Routes } from 'react-router-dom'; // Use Routes in React Router 
 import Font from './Font.module.css';
 import catStyle from './Categories.module.css';
 import CategoryCard from './CategoryCard';
-import accessoriesImage from './images/accessories.jpg';
-import bottom from './images/bottom.jpg';
-import gadgets from './images/gadgets.jpg';
-import Grooming from './images/grooming.jpg';
-import Fitness from './images/gym.jpg';
-import Footwears from './images/shoe.jpg';
-import Topwears from './images/topwear.jpg';
+import accessoriesImage from './images/accessories.webp';
+import bottom from './images/bottom.webp';
+import gadgets from './images/gadgets.webp';
+import Grooming from './images/grooming.webp';
+import Fitness from './images/fitnesss.webp';
+import Footwears from './images/shoe.webp';
+import Topwears from './images/t-shirt.webp';
 
 
 const Categories = () => {
