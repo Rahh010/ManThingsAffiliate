@@ -13,7 +13,7 @@ const CategoryCard = ({ imageSrc, highlightText, route }) => {
   return (
     <div className={ cc.categoryCard} onClick={handleClick}>
       <div className={cc.cardImage}>
-        <img className={ cc.img } loading='lazy' src={imageSrc} alt="Category" />
+        {/* <img className={ cc.img } loading='lazy' src={imageSrc} alt="Category" /> */}
         <div className={cc.cardText}>{highlightText}</div>
       </div>
     </div>
