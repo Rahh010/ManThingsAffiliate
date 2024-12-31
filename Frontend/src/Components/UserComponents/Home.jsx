@@ -3,6 +3,7 @@ import homeStyle from './Home.module.css'
 import Font from './Font.module.css'
 import { FaAngleDoubleDown } from "react-icons/fa";
 import Categories from './Categories';
+import { MdEmail } from "react-icons/md";
 
 const Home = () => {
   function getCurrentYear() {
@@ -37,8 +38,8 @@ const Home = () => {
           <div>
             <p className={homeStyle.footerHead}>Developed by</p>
             <div className={homeStyle.socialLinks}>
-              <a href="mailto:prahul001224@gmail.com">prahul001224@gmail.com</a>
-              <a href="mailto:aruthrasenthilkumar108@gmail.com">aruthrasenthilkumar108@gmail.com</a>
+              <a href="mailto:prahul001224@gmail.com"><MdEmail  /> Rahul</a>
+              <a href="mailto:aruthrasenthilkumar108@gmail.com"><MdEmail /> Aruthra</a>
             </div>
           </div>
 

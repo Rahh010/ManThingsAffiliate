@@ -3,6 +3,7 @@ import axios from "axios";
 import { encode } from "base64-arraybuffer"; // Import encode function
 import Listingproduct from "./Listingproduct";
 import log from './Login.module.css'
+import D from './Dashboard.module.css'
 
 const Dashboard = () => {
   const [formData, setFormData] = useState({
@@ -99,7 +100,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <h1 >Upload a Product</h1>
+      <h1 className={D.h}>Upload a Product</h1>
       <form onSubmit={handleSubmit}  >
         <div >
           <label >Product Name:</label>

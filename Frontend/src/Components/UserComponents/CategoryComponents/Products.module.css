@@ -13,3 +13,8 @@
     margin-bottom: 10px;
     row-gap: 16px;
   }
+
+.bg {
+    height: 100vh;
+    background-color: gray;
+}
