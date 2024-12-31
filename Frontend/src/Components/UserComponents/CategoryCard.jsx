@@ -13,8 +13,8 @@ const CategoryCard = ({ imageSrc, highlightText, route }) => {
   return (
     <div className={ cc.categoryCard} onClick={handleClick}>
       <div className={cc.cardImage}>
-      <div className={cc.img} style={{ backgroundImage: `url(${imageSrc})` }} alt="Category"></div>
-      <div className={cc.cardText}>{highlightText}</div>
+        <img className={ cc.img } loading='lazy' src={imageSrc} alt="Category" />
+        <div className={cc.cardText}>{highlightText}</div>
       </div>
     </div>
   );
