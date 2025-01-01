@@ -9,11 +9,24 @@ const app = express();
 
 console.log(process.env.FRONTEND_URL)
 
+if(process.env.NODE_ENV == 'development') {
+  app.use(cors({
+    origin: '*',  // Ensure this is set correctly
+    credentials: true, // Allow cookies to be sent with requests
+  }));
+  console.log("development")
+}
+
+if(process.env.NODE_ENV == 'production') {
+  app.use(cors({
+    origin: 'https://manthings.vercel.app' || '*',  // Ensure this is set correctly
+    credentials: true, // Allow cookies to be sent with requests
+  }));
+}
 // Middleware
-app.use(cors({
-  origin: 'https://manthings.vercel.app' || '*',  // Ensure this is set correctly
-  credentials: true, // Allow cookies to be sent with requests
-}));
+
+
+
 // Increase payload size limit
 app.use(bodyParser.json({ limit: "10mb" })); // Adjust the limit as needed
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
