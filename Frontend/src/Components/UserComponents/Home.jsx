@@ -23,18 +23,21 @@ const Home = () => {
         "Fashion is the armor to survive the reality of everyday life." — Bill Cunningham
         </div>
         <div className={`${homeStyle.footer} ${Font.poppinsR}`}>
-          <p className={homeStyle.footerHead}>Contact me on</p>
-          <div className={homeStyle.socialLinks}>
-            <a href="https://www.youtube.com/@Bhushan-03-V" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              Youtube
-            </a>
-            <a href="https://www.instagram.com/03_bxuxxan/profilecard/?igsh=NW5nc3FnOHJ1Nng4" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              Instagram
-            </a>
-            {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              Facebook
-            </a> */}
+          <div>
+            <p className={homeStyle.footerHead}>Connect me on</p>
+            <div className={homeStyle.socialLinks}>
+              <a href="https://www.youtube.com/@Bhushan-03-V" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                Youtube
+              </a>
+              <a href="https://www.instagram.com/03_bxuxxan/profilecard/?igsh=NW5nc3FnOHJ1Nng4" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                Instagram
+              </a>
+              {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                Facebook
+                </a> */}
+            </div>
           </div>
+          <div className={homeStyle.footerend}>it is an affiliated product reference website</div>
           <div>
             <p className={homeStyle.footerHead}>Developed by</p>
             <div className={homeStyle.socialLinks}>

@@ -9,9 +9,10 @@ const app = express();
 
 console.log(process.env.FRONTEND_URL)
 
+// Middleware
 if(process.env.NODE_ENV == 'development') {
   app.use(cors({
-    origin: '*',  // Ensure this is set correctly
+    origin: 'http://localhost:5173', // Replace with your front-end URL
     credentials: true, // Allow cookies to be sent with requests
   }));
   console.log("development")
@@ -23,7 +24,6 @@ if(process.env.NODE_ENV == 'production') {
     credentials: true, // Allow cookies to be sent with requests
   }));
 }
-// Middleware
 
 
 

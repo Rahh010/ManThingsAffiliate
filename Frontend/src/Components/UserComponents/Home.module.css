@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vw;
     /* color: whitesmoke;  */
-    background-color: gray; 
+    background-color: black; 
     overflow: scroll;
 }
 
@@ -66,6 +66,7 @@
     width: 100vw;
     font-size: 14px;
     margin-bottom: 60px;
+    color: aqua;
 }
 
 .footer {
@@ -92,7 +93,7 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 30px;
-    row-gap: 10px;
+    /* row-gap: 10px; */
     font-size: 14px;
     /* flex-direction: column; */
     align-items: center;

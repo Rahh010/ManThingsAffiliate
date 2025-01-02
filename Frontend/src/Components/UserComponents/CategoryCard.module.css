@@ -2,10 +2,10 @@
     width: 330px; /* Set desired width */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.8); /* Very thick and prominent shadow */
+    box-shadow: 0px 20px 40px rgba(98, 95, 95, 0.8); /* Very thick and prominent shadow */
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px ;
+    margin-top: 40px;
+    margin-bottom: 40px ;
   }
   
   
