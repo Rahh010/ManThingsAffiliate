@@ -9,7 +9,7 @@
 .p {
     font-size: 30px;
     color: transparent;
-    -webkit-text-stroke: 2px rgb(136, 135, 135);
+    -webkit-text-stroke: 2px whitesmoke;
     text-align: center;
 }
 

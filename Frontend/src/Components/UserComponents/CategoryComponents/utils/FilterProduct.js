@@ -2,6 +2,7 @@ import axios, { all } from 'axios';
 
 const FetchAndFilterProduct = async (userCategory) => {
   try {
+    await new Promise((resolve) => setTimeout(resolve, 3000));
     // Fetch all products from the backend
     const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}api/products?category=${userCategory}`);
     const allProducts = response.data.products;
