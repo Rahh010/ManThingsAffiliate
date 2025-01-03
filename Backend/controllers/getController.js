@@ -2,12 +2,21 @@ const Product = require('../models/Product'); // Ensure the correct path to your
 
 const getAllProducts = async (req, res) => {
   try {
-    const products = await Product.find(); // Fetch all products from the database
-    res.status(200).json({ message: 'Products fetched successfully!', count: products.length, products });
+    const {  category } = req.query; // Default limit to 10 and page to 1
+
+    // Fetch products with limit and skip for pagination
+    const products = await Product.find({ category });
+
+    res.status(200).json({
+      message: 'Products fetched successfully!',
+      count: products.length,
+      products,
+    });
   } catch (error) {
     console.error('Error fetching products:', error);
     res.status(500).json({ message: 'Failed to fetch products.', error: error.message });
   }
+
 };
 
 const getSingleProduct = async (req, res) => {

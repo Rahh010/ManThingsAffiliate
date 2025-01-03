@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom'; // Use Routes in React Router v6
 import Font from './Font.module.css';
 import catStyle from './Categories.module.css';
 import CategoryCard from './CategoryCard';
@@ -52,11 +51,12 @@ const Categories = () => {
     },
   ];
 
+  console.log(Font.cinzel);
+
+
   return (
-    <div className={Font.cinzel}>
+    <div className={Font.cizel}>
         <p className={catStyle.p}>Bhushan's Choice</p>
-        
-        {/* Map through categoryCardObject to generate CategoryCard components */}
         <div className={catStyle.cardContainer}>
           {categoryCardObject.map((category, index) => (
             <CategoryCard 

@@ -13,7 +13,8 @@ const Products = ({ category }) => {
     const fetchProducts = async () => {
       setLoading(true); // Start loading
       try {
-        const response = await FetchProduct(category); // Fetch products for the given category
+        const response = await FetchProduct(category);
+        console.log(response)
         setProducts(response); // Update the products state
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -32,6 +33,7 @@ const Products = ({ category }) => {
         {loading ? (
           <div className={`${styles.loading} ${Font.poppinsLi}`}>
             Products are loading...
+            <span class={styles.loader}></span>
           </div>
         ) : products.length > 0 ? (
           products.map((product) => <Card key={product._id} product={product} />)
@@ -46,4 +48,3 @@ const Products = ({ category }) => {
 };
 
 export default Products;
-

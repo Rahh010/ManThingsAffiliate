@@ -11,7 +11,7 @@ const Home = () => {
     return currentDate.getFullYear(); // Get the full year
   }
   return (
-    <div className={`${homeStyle.home} ${Font.poppinsMi}`}>
+    <div className={`${homeStyle.home} ${Font.cinzel}`}>
         <div className={homeStyle.img} >
           <h1 className={`${homeStyle.head} ${Font.cinzel}`}>Man Things</h1>
           <FaAngleDoubleDown size={80} color='white' className={homeStyle.scroll} />
@@ -19,12 +19,12 @@ const Home = () => {
         <div className={homeStyle.sectionTwo}>
           <Categories />
         </div>
-        <div className={`${homeStyle.quote} ${Font.poppinsLi}`}>
+        <div className={`${homeStyle.quote} ${Font.poppinsR}`}>
         "Fashion is the armor to survive the reality of everyday life." — Bill Cunningham
         </div>
         <div className={`${homeStyle.footer} ${Font.poppinsR}`}>
           <div>
-            <p className={homeStyle.footerHead}>Connect me on</p>
+            <p className={homeStyle.footerHead}>Follow me on</p>
             <div className={homeStyle.socialLinks}>
               <a href="https://www.youtube.com/@Bhushan-03-V" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 Youtube
@@ -37,7 +37,6 @@ const Home = () => {
                 </a> */}
             </div>
           </div>
-          <div className={homeStyle.footerend}>it is an affiliated product reference website</div>
           <div>
             <p className={homeStyle.footerHead}>Developed by</p>
             <div className={homeStyle.socialLinks}>
@@ -45,6 +44,7 @@ const Home = () => {
               <a href="mailto:aruthrasenthilkumar108@gmail.com"><MdEmail /> Aruthra</a>
             </div>
           </div>
+          <div className={homeStyle.wordings}>This website features affiliate products, and we may earn a commission on purchases made through our links, at no extra cost to you.</div>
 
           <p className={homeStyle.footerend}>&copy; {getCurrentYear()} Man Things. All rights reserved.</p>
       </div>

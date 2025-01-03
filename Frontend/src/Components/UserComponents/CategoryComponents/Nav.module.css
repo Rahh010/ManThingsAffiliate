@@ -7,7 +7,9 @@
     border-bottom: 1px solid black;
     background-color: black;
     color: whitesmoke;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .back {
