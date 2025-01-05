@@ -7,8 +7,6 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 
-console.log(process.env.FRONTEND_URL)
-
 // Middleware
 if(process.env.NODE_ENV == 'development') {
   app.use(cors({

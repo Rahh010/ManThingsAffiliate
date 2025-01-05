@@ -14,7 +14,6 @@ const Dashboard = () => {
     category: "", // Added category field
   });
 
-  console.log(import.meta.env.VITE_BACKEND_URL)
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

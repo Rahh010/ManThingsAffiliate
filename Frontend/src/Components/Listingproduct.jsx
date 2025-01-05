@@ -12,6 +12,7 @@ const Listingproduct = () => {
         const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}api/products`);
         setProducts(res.data.products || []); // Ensure products is always an array
         setLoading(false);
+        console.log(res)
       } catch (err) {
         console.error("Error fetching products:", err);
         setError("Failed to fetch products.");

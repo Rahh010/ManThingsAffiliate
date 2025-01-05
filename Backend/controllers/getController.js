@@ -3,9 +3,14 @@ const Product = require('../models/Product'); // Ensure the correct path to your
 const getAllProducts = async (req, res) => {
   try {
     const {  category } = req.query; // Default limit to 10 and page to 1
+    
+    console.log(category)
+    const query = category ? { category } : {}
+    console.log(query)
 
     // Fetch products with limit and skip for pagination
-    const products = await Product.find({ category });
+    const products = await Product.find( query );
+    console.log
 
     res.status(200).json({
       message: 'Products fetched successfully!',
